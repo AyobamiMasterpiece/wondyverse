@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+  box-sizing: border-box;
+}
+
+body {
+  width: 90%;
+  margin: 2em auto;
+  font: 1em/1.3 Arial, Helvetica, sans-serif;
+}
+
+a:link,
+a:visited {
+  color: #333;
+}
+
+nav ul,
+aside ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav a:link,
+nav a:visited {
+  background-color: rgba(207, 232, 220, 0.2);
+  border: 2px solid rgb(79, 185, 227);
+  text-decoration: none;
+  display: block;
+  padding: 10px;
+  color: #333;
+  font-weight: bold;
+}
+
+nav a:hover {
+  background-color: rgba(207, 232, 220, 0.7);
+}
+
+.related {
+  background-color: rgba(79, 185, 227, 0.3);
+  border: 1px solid rgb(79, 185, 227);
+  padding: 10px;
+}
+
+.sidebar {
+  background-color: rgba(207, 232, 220, 0.5);
+  padding: 10px;
+}
+
+article {
+  margin-bottom: 1em;
+}
+@media screen and (min-width: 40em) {
+  article {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    column-gap: 20px;
+  }
+
+  nav ul {
+    display: flex;
+  }
+
+  nav li {
+    flex: 1 1 200px;
+    }}
+
+
+    @media screen and (min-width: 70em) {
+  main {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    column-gap: 20px;
+  }
+
+  article {
+    margin-bottom: 0;
+  }
+
+  footer {
+    border-top: 1px solid #ccc;
+    margin-top: 2em;
+  }
+}
+    </style>
+</head>
+
+    <body>
+        <div class="wrapper">
+          <header>
+            <nav>
+              <ul>
+                <li><a href="">About</a></li>
+                <li><a href="">Contact</a></li>
+                <li><a href="">Meet the team</a></li>
+                <li><a href="">Blog</a></li>
+              </ul>
+            </nav>
+          </header>
+          <main>
+            <article>
+              <div class="content">
+                <h1>Veggies!</h1>
+                <p>…</p>
+              </div>
+              <aside class="related">
+                <p>…nnn</p>
+              </aside>
+            </article>
+      
+            <aside class="sidebar">
+              <h2>External vegetable-based links</h2>
+              <ul>
+                <li>…</li>
+              </ul>
+            </aside>
+          </main>
+      
+          <footer><p>&copy;2019</p></footer>
+        </div>
+      
+      
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<style>
+
+    body{
+        background-color: aqua;
+        color:brown;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        line-height:1.6em;
+        margin:0;
+    }
+
+    .container{
+        width:80%;
+        margin: auto;
+        overflow: hidden;
+        background-color:palevioletred ;
+        
+       
+
+    }
+    .main-header{
+        background-color: coral;
+        color:white
+    }
+    
+
+
+    .navbar{
+        background-color: chartreuse;
+        color:yellow;
+    }
+    .navbar ul{
+        padding:0;
+        list-style-type: none;
+    }
+
+
+    .navbar li{
+        display: inline;
+
+    }
+
+    .navbar a{
+        color:white;
+        
+        padding-right:15px;
+    }
+
+
+
+    .show{
+        background-color:deeppink;
+      min-height: 300px;
+        text-align: center;
+    }
+
+    .show h1{
+line-height: 1.5em;
+    }
+
+    .main{
+        float: left;
+        width:50% ;
+        padding:0 30px;
+        box-sizing: border-box;
+        background-color: blue;
+    }
+
+
+    
+    .side{
+        float: right;
+        width:50% ;
+        padding:0 30px;
+        box-sizing: border-box;
+        background-color: black;
+    }
+
+.footer{
+    background-color: blueviolet;
+    text-align: center;
+    padding: 20px;
+
+}
+
+
+</style>
+
+
+
+</head>
+<body>
+    <header class="main-header">
+        <div class="container">
+            <hi class="l">AYOBAMIK</hi>
+        </div>
+    </header>
+    <nav class="navbar">
+        <div class="container">
+            <ul>
+                <li><a href="">home</a></li>
+                <li><a href="">about</a></li>
+                <li><a href="">contact</a></li>
+            </ul>
+
+
+        </div>
+    </nav>
+
+
+
+
+
+
+
+
+    <section class="show">
+<div class="container">
+    <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, ex tenetur vero excepturi atque ipsa, quod asperiores debitis repellendus repellat nisi repudiandae dolor quidem dignissimos consequatur corrupti natus amet consequuntur iste earum, aspernatur iure suscipit voluptates perferendis! Adipisci delectus magnam accusantium temporibus, facilis fugit commodi exercitationem animi eos, dolore pariatur dicta excepturi asperiores fugiat ipsum sint libero repellendus veritatis architecto possimus tenetur cupiditate? Molestiae deserunt, reprehenderit expedita id neque fuga minima quis. Praesentium, eveniet. Aspernatur et inventore velit illum facilis iste ut numquam consequatur! Neque reprehenderit aliquid, fugit laborum alias, debitis facilis perspiciatis aut labore dolorem maxime delectus sunt quae fugiat, rerum expedita hic nisi dicta? Qui sit numquam explicabo similique reiciendis, atque a facilis ab illo quos rem odit suscipit distinctio eius dolore voluptas porro quae unde nesciunt sapiente delectus? Repellat quisquam voluptate, fuga nam distinctio quis, quia optio recusandae deserunt, provident voluptatum natus cum quod tenetur eius dicta minima non dolore. Debitis, facilis. Repellat, temporibus quaerat! Quae odit repudiandae explicabo porro at nesciunt praesentium corrupti quod perferendis rerum voluptate laborum quia consequuntur incidunt necessitatibus sint, iste molestiae quo asperiores ratione rem eveniet impedit libero! Facere similique doloremque hic aperiam officia unde fugiat ipsam. Porro aliquam nobis sint blanditiis.</h1>
+</div>
+
+
+    </section>
+
+
+<div class="container">
+    <section class="main">
+        <h1>welcome</h1>
+        bor sit amet consectetur, adipisicing elit. Veniam corporis voluptatibus maxime quaerat est quas, labore aut at fugiat? Dolore quam soluta laborum rerum expedita voluptates aspernatur totam tempora eius eum quasi tenetur ex autem in mollitia eaque quidem necessitatibus ipsum iure consequatur, distinctio minima sunt laboriosam repellendus! Ipsum, a!
+        </p>
+    </section>
+
+
+
+    <aside class="side">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, dicta deleniti omnis quisquam ullam necessitatibus architecto rem in nobis nostrum!</p>
+    </aside>
+
+</div>
+
+<footer class="footer">
+    <p>copyrught my website</p>
+</footer>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"><link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+<style>
+   body{
+    margin: 0;
+    overflow-x: hidden;
+}
+
+
+
+@media all and (min-width:600px) {
+    
+ .cat{
+color: purple;
+
+}
+
+
+.imgdiv{
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+  border-radius: 10px;
+    transition: all 2s ;
+    
+
+}
+.imgdiv:hover{
+width:305px;
+opacity:0.6
+}
+.imleaf{
+    object-fit: cover;
+    width: 100%;
+   
+}
+
+.items{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+  justify-content: center;
+    padding:20px;
+
+}
+.add{
+    background: #DA22FF;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #9733EE, #DA22FF);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #9733EE, #DA22FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+margin-left: 15px;
+padding-left: 80px;
+padding-right: 80px;
+padding-top: 10px;
+padding-bottom: 10px;
+border-radius: 20px;
+color: white;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif2 ;
+
+}
+.item{
+    
+margin-left: 40px;
+    width: 350px;
+    height: 400px;
+   
+}
+.product{
+    letter-spacing: 2px;
+    text-shadow: 9px ;
+    word-spacing: 3px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+.filename{
+    letter-spacing: 2px;
+    text-shadow: 9px ;
+    word-spacing: 10px;
+    
+    font-family: "Trirong", serif;
+    font-size: 15px;
+}
+
+
+
+
+div.polaroid {
+    width: 30%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+  }
+  
+  div.container {
+    text-align: center;
+    padding: 10px 20px;
+  }
+  
+
+
+
+
+
+
+
+
+
+  footer{
+    background-color: #DA22FF;
+    padding: 5px;
+    height: 30px;
+  }
+.head{
+    display: flex;
+}
+
+
+.heading ~ a {
+    
+    color: white;
+    font-family: "Trirong", serif;
+    text-decoration: none;
+   
+    padding:8px;
+    transition:all 1s ease-in-out;
+    border-color:purple;
+    border-bottom-style: solid;
+    border-width:0px;
+align-self: center;
+
+
+}
+
+
+ a:hover{
+    border-color:white;
+    border-width: 3px;
+  padding-left: 10px;
+ } 
+ 
+
+
+
+
+
+.head{
+    background: #DA22FF;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #9733EE, #DA22FF);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #9733EE, #DA22FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+position: -webkit-sticky;
+position:sticky;
+top: 0;
+ color: black;
+overflow-x: hidden;
+  
+   
+  
+
+}
+.heading{
+ color: white;
+    margin-left: 55px;
+    margin-right: 100px;
+    text-align: 'justify';
+    text-indent: 10px;
+    letter-spacing: 2px;
+    text-shadow: 9px ;
+    word-spacing: 10px;
+    font-weight: bold;
+    font-family: "Trirong", serif;
+    font-size: 15px;
+
+      flex:0 0 250px;
+}
+.heading:first-letter{
+    font-size:50px;
+}
+
+
+}
+
+
+
+
+
+
+@media all  and (max-width:600px) {
+    
+
+   
+        }
+
+</style>
+        
+</head>
+<body>
+   <div class="head" >
+        
+
+    <h2 id ='head' class="heading"> WONDY'S WORLD</h2>
+    <a href="default.asp">ABOUT</a>
+    <a href="default.asp">CONTACTS</a>
+    <a href="default.asp">FAQS</a>
+    <a href="default.asp">Home</a>
+    <a href="default.asp" style="flex:0 0 150px;">HOW TO ORDER</a>
+    
+    <i class="fa fa-search" style="font-size:24px ;margin-left:60px; color: white; align-self: center;"></i>
+    <i class="fa fa-shopping-cart" style="font-size:24px; margin-left:60px ;color: white; align-self: center;"></i>
+    
+    </div>
+    
+</body>
+</html -->

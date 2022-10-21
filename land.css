@@ -1,0 +1,281 @@
+html{
+    margin:0px;
+}
+
+
+body{
+    margin: 0;
+    
+    width:100%
+    
+}
+
+
+
+    
+ .cat{
+color: purple;
+
+}
+
+
+.imgdiv{
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+  border-radius: 10px;
+    transition: all 2s ;
+    
+
+}
+.imgdiv:hover{
+width:305px;
+opacity:0.6
+}
+.imleaf{
+    object-fit: cover;
+    width: 100%;
+   
+}
+
+.items{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+  justify-content: center;
+    padding:20px;
+
+}
+.add{
+    background: #DA22FF;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #9733EE, #DA22FF);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #9733EE, #DA22FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+margin-left: 15px;
+padding-left: 80px;
+padding-right: 80px;
+padding-top: 10px;
+padding-bottom: 10px;
+border-radius: 20px;
+color: white;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif2 ;
+
+}
+.item{
+    
+margin-left: 40px;
+    width: 350px;
+    height: 400px;
+   
+}
+.product{
+    letter-spacing: 2px;
+    text-shadow: 9px ;
+    word-spacing: 3px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+.filename{
+    letter-spacing: 2px;
+    text-shadow: 9px ;
+    word-spacing: 10px;
+    
+    font-family: "Trirong", serif;
+    font-size: 15px;
+}
+
+
+
+
+div.polaroid {
+    width: 30%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+  }
+  
+  div.container {
+    text-align: center;
+    padding: 10px 20px;
+  }
+  
+
+
+
+
+
+
+
+
+
+  footer{
+    background-color: #DA22FF;
+    padding: 5px;
+    height: 30px;
+  }
+.head{
+    display: flex;
+   
+}
+
+
+.heading ~ a {
+    
+    color: white;
+    font-family: "Trirong", serif;
+    text-decoration: none;
+   
+    padding:8px;
+    transition:all 1s ease-in-out;
+    border-color:purple;
+    border-bottom-style: solid;
+    border-width:0px;
+align-self: center;
+
+
+}
+
+
+ a:hover{
+    border-color:white;
+    border-width: 3px;
+  padding-left: 10px;
+ } 
+ 
+
+
+
+
+
+.head{
+    background: #DA22FF;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #9733EE, #DA22FF);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #9733EE, #DA22FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+position: -webkit-sticky;
+position:sticky;
+top: 0;
+ color: black;
+overflow-x: hidden;
+width: 100%;
+  
+   
+  
+
+}
+.heading{
+ color: white;
+    margin-left: 55px;
+    margin-right: 100px;
+    text-align: 'justify';
+    text-indent: 10px;
+    letter-spacing: 2px;
+    text-shadow: 9px ;
+    word-spacing: 10px;
+    font-weight: bold;
+    font-family: "Trirong", serif;
+    font-size: 15px;
+
+      flex:0 0 250px;
+}
+.heading:first-letter{
+    font-size:50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media all  and (max-width:900px) {
+    
+    .items{
+        margin-top: 30px;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+      justify-content: center;
+        padding:10px;
+    
+    }
+
+
+    
+.heading ~ a {
+    
+   
+   font-size: small;
+    padding:4px;
+   
+
+
+}
+
+.heading{
+    color: white;
+       margin-left:0px;
+       margin-right: 15px;
+       text-align: 'justify';
+       text-indent: 10px;
+       letter-spacing: 2px;
+       text-shadow: 9px ;
+       word-spacing: 10px;
+       font-weight: bold;
+       font-family: "Trirong", serif;
+       font-size: 15px;
+   
+         flex:0 0 250px;
+   }
+   
+        }
+
+
+
+
+
+
+        @media all  and (max-width:700px) {
+    
+            .items{
+                margin-top: 30px;
+                display: grid;
+                grid-template-columns: repeat(1,1fr);
+              justify-content: center;
+                padding:20px;
+            
+            }
+
+
+
+            .item{
+    
+                margin-left:0px;
+                    width: 350px;
+                    height: 400px;
+                   
+                }
+
+                
+.heading ~ a {
+    
+   display: none;
+
+}
+
+
+
+
+                .imgdiv{
+                    width: 280px;
+                    height: 200px;
+                    overflow: hidden;
+                  border-radius: 10px;
+                    transition: all 2s ;
+                    
+                
+                }
+           
+                }
